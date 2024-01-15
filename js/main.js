@@ -2,7 +2,7 @@ let navbar = document.getElementById("navbar");
 navbar.insertAdjacentHTML("beforeend",
         `<nav class="navbar navbar-expand-lg " style="color: blanchedalmond;">
         <div class="container-fluid">
-            <a class="navbar-brand" href="index.html"><img src="../src/img/Future Team México.png" alt="" width="150px" height="120px"
+            <a class="navbar-brand" href="index.html"><img src="./src/img/Future Team México.png" alt="" width="150px" height="120px"
                     style="margin-left: 30px;"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
                 aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
