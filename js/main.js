@@ -8,7 +8,7 @@ navbar.insertAdjacentHTML("beforeend",
                 aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <div class="collapse navbar-collapse" id="navbarNavDropdown" style="text-aling:center;">
                 <ul class="navbar-nav">
                     <li class="nav-item">
                         <a class="nav-link" href="./formproyectos.html" style="margin-right: 50px;">Proyectos, líderes e
@@ -31,5 +31,6 @@ navbar.insertAdjacentHTML("beforeend",
                     </li>
                 </ul>
             </div>
+            <img class="nav-item" src="./src/img/logo.en.svg" alt="" width="80px" height="80px">
         </div>
     </nav><br>`);
