@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,56 +7,16 @@
         integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Anton&family=Yanone+Kaffeesatz&display=swap" rel="stylesheet">
-    <title>Formulario "Taller de entrevistas"</title>
+    <link rel="shortcut icon" href="./src/img/Future Team México.png" type="image/x-icon">
+    <title>Formulario Voluntariado</title>
 </head>
-
 <body>
-<nav class="navbar navbar-expand-lg " style="color: blanchedalmond;">
-    <div class="container-fluid">
-        <a class="navbar-brand" href="index.html"><img src="./src/img/1.png" alt="" width="150px" height="120px"
-                style="margin-left: 30px;"></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
-            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="./formproyectos.html" style="margin-right: 50px;">Proyectos, líderes e
-                        iniciativas</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="./formredes.html" style="margin-right: 50px;">Formulario para Redes
-                        sociales</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="./formweb.html" style="margin-right: 50px;">Formulario para Web</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="https://www.facebook.com/FMJMEXICO2024" style="margin-right: 50px;"><img
-                            src="./src/img/facebook.png" alt="" width="40px" height="40px"></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="https://www.instagram.com/fmjmexico2024/" style="margin-right: 50px;"><img
-                            src="./src/img/instagram.png" alt="" width="40px" height="40px"></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="https://www.tiktok.com/@fmjmexico2024" style="margin-right: 50px;"><img
-                            src="./src/img/tik-tok.png" alt="" width="40px" height="40px"></a>
-                </li>
-            </ul>
-        </div>
-    </div>
-</nav>
-   
+<header id="navbar"></header>
     <div class="mb-3 cali">
         <form class="formulario" id="formulario" name="formulario"
             action="https://script.google.com/macros/s/AKfycbzxDr3XNj4rVU2oS3-WUzIIdtkxKF8vKUak-nCUP_dy1ECFVgIGeBkxOE4vFcpUn-Ds/exec"
             method="POST" enctype="multipart/form-data" style="background-color: #faba00;border-radius: 20px;">
             <!-- Grupo: Nombre -->
-            <h1>REGISTRO RED FUTURE TEAM MX 
-                <br>FMJ2024_VOLUNTARIO REDES SOCIALES</h1>
-            <br>
             <div class="formulario__grupo" id="grupo__nombre">
                 <label for="nombre" class="formulario__label">Nombre completo:</label>
                 <div class="formulario__grupo-input">
@@ -67,19 +26,64 @@
             <div class="formulario__grupo" id="grupo__nombre">
                 <label for="nombre" class="formulario__label">Correo Eléctronico:</label>
                 <div class="formulario__grupo-input">
-                    <input type="text" class="formulario__input" name="Correo Eléctronico:" id="nombre" required>
+                    <input type="email" class="formulario__input" name="Correo Eléctronico:" id="nombre" required>
+                </div>
+            </div>
+            <div class="formulario__grupo" id="grupo__nombre">
+                <label for="nombre" class="formulario__label">Nacionalidad:</label>
+                <div class="formulario__grupo-input">
+                    <input type="text" class="formulario__input" name="Nacionalidad" id="nombre" required>
+                </div>
+            </div>
+            <div class="formulario__grupo" id="grupo__nombre">
+                <label for="nombre" class="formulario__label">Fecha de nacimiento</label>
+                <div class="formulario__grupo-input">
+                    <input type="date" class="formulario__input" name="Nacionalidad" id="nombre" required>
+                </div>
+            </div>
+            <div class="formulario__grupo" id="grupo__nombre">
+                <label for="nombre" class="formulario__label">Teléfono con clave internacional:</label>
+                <div class="formulario__grupo-input">
+                    <input type="tel" class="formulario__input" name="Teléfono con clave internacional" id="nombre" required>
+                </div>
+            </div>
+            <div class="formulario__grupo" id="grupo__nombre">
+                <label for="select" class="formulario__label">Selecciona¿Cuál es tu área de trabajo ó estudio?
+                </label>
+                <select class="formulario__input" name="¿Cuál de estas áreas te interesan más?" id="nombre" required>
+                    <option value="Humanidades y de las artes.">Humanidades y de las artes.</option>
+                    <option value="Ciencias sociales.">Ciencias sociales.</option>
+                    <option value="Gastronomía.">Gastronomía.</option>
+                    <option value="Ciencias biológicas, químicas y de la salud.">Ciencias biológicas, químicas y de la salud.</option>
+                    <option value="Ciencias físico-matemáticas y de las ingenierías.">Ciencias físico-matemáticas y de las ingenierías.</option>
+                    <option value="Me gusta Crear contenido escrito que transmita mensajes convincentes y narrativas poderosas">Hostelería y entretenimiento.</option>
+                </select>
+            </div>
+            <div class="formulario__grupo" id="grupo__nombre">
+                <label for="nombre" class="formulario__label">Otra(especifique o agregue la leyenda no aplica)</label>
+                <div class="formulario__grupo-input">
+                    <input type="text" class="formulario__input" name="Other (please specify)" id="nombre">
                 </div>
             </div>
             <div class="formulario__grupo" id="grupo__nombre">
                 <label for="select" class="formulario__label">¿Cuál de estas áreas te interesan más?
                 </label>
-                <select class="formulario__input" name="¿Cuál de estas áreas te interesan más?" id="nombre" required>
-                    <option value="Me gusta gestionar y organizar equipos de trabajo">Me gusta gestionar y organizar equipos de trabajo</option>
-                    <option value="Me gusta interactuar con personas a travez de las redes sociales">Me gusta interactuar con personas a travez de las redes sociales</option>
-                    <option value="Me gusta Asistir y filmar eventos en vivo, conferencias, ferias u otras actividades">Me gusta Asistir y filmar eventos en vivo, conferencias, ferias u otras actividades</option>
-                    <option value="Me gusta Transformar material bruto en videos bien estructurados">Me gusta Transformar material bruto en videos bien estructurados</option>
-                    <option value="Me gusta crear activos visuales (infografías, folletos, carteles, banners web y otros materiales de marketing)">Me gusta crear activos visuales (infografías, folletos, carteles, banners web y otros materiales de marketing)</option>
-                    <option value="Me gusta Crear contenido escrito que transmita mensajes convincentes y narrativas poderosas">Me gusta Crear contenido escrito que transmita mensajes convincentes y narrativas poderosas</option>
+                <select class="formulario__input" name="¿Cuál de estas áreas te interesan más?" id="nombre" multiple required>
+                    <option value="RRSS Gestión gráfica, creación y planeación de contenido para redes sociales.">RRSS Gestión gráfica, creación y planeación de contenido para redes sociales.</option>
+                    <option value="PRENSA Creación de boletines de prensa.">PRENSA Creación de boletines de prensa.</option>
+                    <option value="PRENSA Gestión de entrevistas.">PRENSA Gestión de entrevistas.</option>
+                    <option value="Apoyo logístico en las conferencias de prensa de difusión del FMJ.">Apoyo logístico en las conferencias de prensa de difusión del FMJ.</option>
+                    <option value="PRENSA Creación de Press Kit notas de prensa, entrevistas y menciones del festival en medios impresos y digitales.">PRENSA Creación de Press Kit notas de prensa, entrevistas y menciones del festival en medios impresos y digitales.</option>
+                    <option value="Gestión de conferencias, coloquios etc. que permitan la difusión.">Gestión de conferencias, coloquios etc. que permitan la difusión.</option>
+                    <option value="Preparación de infografías">Preparación de infografías</option>
+                    <option value="ADMON. Manejo de bases de datos">ADMON. Manejo de bases de datos</option>
+                    <option value="Desarrollo de páginas web(HTML, CSS, Javascript, React, MySQL, WordPress)">Desarrollo de páginas web(HTML, CSS, Javascript, React, MySQL, WordPress)</option>
+                    <option value="Edición de videos">Edición de videos</option>
+                    <option value="Creación de podcast">Creación de podcast</option>
+                    <option value="Gestionar sesiones informativas en streaming">Gestionar sesiones informativas en streaming</option>
+                    <option value="Selección de proyectos relevantes">Selección de proyectos relevantes</option>
+                    <option value="Creación de convocatorias">Creación de convocatorias</option>
+                    <option value="Asesoria legal">Asesoria legal</option>
                 </select>
             </div>
             <div class="formulario__grupo" id="grupo__nombre">
@@ -92,6 +96,15 @@
                     <option value="Organizar y mantener una biblioteca de activos multimedia.">Organizar y mantener una biblioteca de activos multimedia.</option>
                     <option value="Diseñar contenido que sea versátil para las diferentes plataformas">Diseñar contenido que sea versátil para las diferentes plataformas</option>
                     <option value="Escribir guiones originales">Escribir guiones originales</option>
+                </select>
+            </div>
+            <div class="formulario__grupo" id="grupo__nombre">
+                <label for="select" class="formulario__label">¿En qué área te gustaría participar?
+                </label>
+                <select class="formulario__input" name="¿Qué responsabilidad te gustaria tomar?" id="nombre" required>
+                    <option value="FMJ 1y2_REDES SOCIALES, PÁGINA WEB, COMUNICACIÓN, IMAGEN, PRODUCCIÓN">FMJ 1y2_REDES SOCIALES, PÁGINA WEB, COMUNICACIÓN, IMAGEN, PRODUCCIÓN</option>
+                    <option value="FMJ 3_Búsqueda de alianzas y/o patrocinios">FMJ 3_Búsqueda de alianzas y/o patrocinios</option>
+                    <option value="FMJ 4y5_Gestión de voluntariado, Seguimiento, Administración, Información OFICIAL">FMJ 4y5_Gestión de voluntariado, Seguimiento, Administración, Información OFICIAL"</option>  
                 </select>
             </div>
         <div class="formulario__grupo" id="grupo__nombre">
@@ -165,5 +178,6 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"
         integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS"
         crossorigin="anonymous"></script>
+        <script src="./js/main.js"></script>
 </body>
 </html>

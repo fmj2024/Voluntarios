@@ -1,5 +1,6 @@
 * {
     font-family: 'Montserrat', sans-serif;
+
 }
 
 .color1 {
@@ -8,7 +9,7 @@
 }
 
 .nav-link {
-    size: 30px;
+    size: 100px;
     float: right;
 
 }
