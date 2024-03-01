@@ -15,8 +15,9 @@
     <div class="mb-3 cali">
         <form class="formulario" id="formulario" name="formulario"
             action="https://script.google.com/macros/s/AKfycbzxDr3XNj4rVU2oS3-WUzIIdtkxKF8vKUak-nCUP_dy1ECFVgIGeBkxOE4vFcpUn-Ds/exec"
-            method="POST" enctype="multipart/form-data" style="background-image: url(./src/img/6.png);border-radius: 20px;">
+            method="POST" enctype="multipart/form-data" style="background-color:#FBBA00 ;border-radius: 20px;">
             <!-- Grupo: Nombre -->
+            <fieldset>
             <div class="formulario__grupo" id="grupo__nombre">
                 <label for="nombre" class="formulario__label">Nombre completo:</label>
                 <div class="formulario__grupo-input">
@@ -36,7 +37,7 @@
             <div class="formulario__grupo" id="grupo__nombre">
                 <label for="nombre" class="formulario__label">Nacionalidad:</label>
                 <div class="formulario__grupo-input">
-                    <input type="text" class="formulario__input" name="Nacionalidad" id="nombre" required>
+                    <input type="text" class="formulario__input" name="Nacionalidad:" id="nombre" required>
                 </div>
             </div>
             <div class="formulario__grupo" id="grupo__nombre">
@@ -54,7 +55,7 @@
             <div class="formulario__grupo" id="grupo__nombre">
                 <label for="nombre" class="formulario__label">Teléfono con clave internacional:</label>
                 <div class="formulario__grupo-input">
-                    <input type="tel" class="formulario__input" name="Teléfono con clave internacional" id="nombre" required>
+                    <input type="tel" class="formulario__input" name="Teléfono con clave internacional:" id="nombre" required>
                 </div>
             </div>
             <div class="formulario__grupo" id="grupo__nombre">
@@ -66,7 +67,7 @@
             <div class="formulario__grupo" id="grupo__nombre">
                 <label for="select" class="formulario__label">Selecciona¿Cuál es tu área de trabajo ó estudio?
                 </label>
-                <select class="formulario__input" name="¿Cuál de estas áreas te interesan más?" id="nombre" required>
+                <select class="formulario__input" name="Selecciona¿Cuál es tu área de trabajo ó estudio?" id="nombre" required>
                     <option value="Humanidades y de las artes.">Humanidades y de las artes.</option>
                     <option value="Ciencias sociales.">Ciencias sociales.</option>
                     <option value="Gastronomía.">Gastronomía.</option>
@@ -76,193 +77,223 @@
                 </select>
             </div>
             <div class="formulario__grupo" id="grupo__nombre">
-                <label for="nombre" class="formulario__label">Otra(especifique ó si no es el caso agregar no aplica)</label>
+                <label for="nombre" class="formulario__label">Otra(especifique)</label>
                 <div class="formulario__grupo-input">
-                    <input type="text" class="formulario__input" name="Otra(especifique o agregue la leyenda no aplica)" id="nombre">
-                </div>
-            </div>
-            <div class="formulario__grupo" id="grupo__nombre">
-                <label for="select" class="formulario__label">Indica la modalidad en la que deseas colaborar:
-                </label>
-                <select class="formulario__input" name="Indica la modalidad en la que deseas colaborar:" id="nombre" required>
-                    <option value="Individual">Individual</option>
-                    <option value="Como representante de un proyecto/equipo de trabajo independiente o privado.">Como representante de un proyecto/equipo de trabajo independiente o privado.</option>
-                    <option value="Como representante de un proyecto/equipo de trabajo perteneciente a la iniciativa pública.">Como representante de un proyecto/equipo de trabajo perteneciente a la iniciativa pública.</option>
-                </select>
-            </div>
-            <div class="formulario__grupo" id="grupo__nombre">
-                <label for="nombre" class="formulario__label">Nombre(s) de la instancia, proyecto o equipo/grupos de trabajo que representas</label>
-                <div class="formulario__grupo-input">
-                    <input type="text" class="formulario__input" name="Nombre(s) de la instancia, proyecto o equipo/grupos de trabajo que representas"
+                    <input type="text" class="formulario__input" name="Otra(especifique)"
                         id="nombre">
                 </div>
             </div>
+            <hr style="width: 100%;">
+                    <div class="formulario__grupo" id="grupo__nombre">
+                        <label for="select" class="formulario__label">Indica la modalidad en la que deseas colaborar:
+                        </label>
+                        <select class="formulario__input" name="Indica la modalidad en la que deseas colaborar:" id="nombre" required>
+                            <option value="Individual">Individual</option>
+                            <option value="Como representante de un proyecto/equipo de trabajo independiente o privado.">Como representante
+                                de un proyecto/equipo de trabajo independiente o privado.</option>
+                            <option value="Como representante de un proyecto/equipo de trabajo perteneciente a la iniciativa pública.">Como
+                                representante de un proyecto/equipo de trabajo perteneciente a la iniciativa pública.</option>
+                        </select>
+                    </div>
+                    <div class="formulario__grupo" id="grupo__nombre">
+                        <label for="nombre" class="formulario__label">Nombre(s) de la instancia, proyecto o equipo/grupos de trabajo que
+                            representas</label>
+                        <div class="formulario__grupo-input">
+                            <input type="text" class="formulario__input"
+                                name="Nombre(s) de la instancia, proyecto o equipo/grupos de trabajo que representas" id="nombre">
+                        </div>
+                    </div>
+                    <div class="formulario__grupo" id="grupo__nombre">
+                        <label for="nombre" class="formulario__label">Página o sitio web</label>
+                        <div class="formulario__grupo-input">
+                            <input type="text" class="formulario__input" name="Página o sitio web" id="nombre">
+                        </div>
+                    </div>
+                    <div class="formulario__grupo" id="grupo__nombre">
+                        <label for="nombre" class="formulario__label">Facebook
+                        </label>
+                        <div class="formulario__grupo-input">
+                            <input type="text" class="formulario__input" name="Facebook
+                            *" id="nombre">
+                        </div>
+                    </div>
+                    <div class="formulario__grupo" id="grupo__nombre">
+                        <label for="nombre" class="formulario__label">Instagram</label>
+                        <div class="formulario__grupo-input">
+                            <input type="text" class="formulario__input" name="Instagram" id="nombre">
+                        </div>
+                    </div>
+                    <div class="formulario__grupo" id="grupo__nombre">
+                        <label for="nombre" class="formulario__label">Twitter</label>
+                        <div class="formulario__grupo-input">
+                            <input type="text" class="formulario__input" name="Twitter" id="nombre">
+                        </div>
+                    </div>
+                    <div class="formulario__grupo" id="grupo__nombre">
+                        <label for="nombre" class="formulario__label">Telegram</label>
+                        <div class="formulario__grupo-input">
+                            <input type="text" class="formulario__input" name="Telegram" id="nombre">
+                        </div>
+                    </div>
+                    <div class="formulario__grupo" id="grupo__nombre">
+                        <label for="nombre" class="formulario__label">Youtube</label>
+                        <div class="formulario__grupo-input">
+                            <input type="text" class="formulario__input" name="Youtube" id="nombre">
+                        </div>
+                    </div>
+                    <div class="formulario__grupo" id="grupo__nombre">
+                        <label for="nombre" class="formulario__label">Otras redes sociales</label>
+                        <div class="formulario__grupo-input">
+                            <input type="text" class="formulario__input" name="Otras redes sociales"
+                                id="nombre">
+                        </div>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <div class="formulario__grupo" id="grupo__nombre">
+                        <label for="select" class="formulario__label">¿En qué área te gustaría participar?
+                        </label>
+                        <select class="formulario__input" name="¿En qué área te gustaría participar?" id="nombre" required>
+                            <option value="FMJ 1y2_REDES SOCIALES, PÁGINA WEB, COMUNICACIÓN, IMAGEN, PRODUCCIÓN">FMJ 1y2_REDES SOCIALES,
+                                PÁGINA WEB, COMUNICACIÓN, IMAGEN, PRODUCCIÓN</option>
+                            <option value="FMJ 3_Búsqueda de alianzas y/o patrocinios">FMJ 3_Búsqueda de alianzas y/o patrocinios</option>
+                            <option value="FMJ 4y5_Gestión de voluntariado, Seguimiento, Administración, Información OFICIAL">FMJ
+                                4y5_Gestión de voluntariado, Seguimiento, Administración, Información OFICIAL"</option>
+                        </select>
+                    </div>
+                    <div class="formulario__grupo" id="grupo__nombre">
+                        <label for="nombre" class="formulario__label">¿En qué roles de la gestión de equipos/eventos tienes experiencia y podrías desempeñar en el proyecto del equipo ?
+                        *Escribe al menos cinco acciones/roles que hayas realizado en los proyectos en los que has colaborado.</label>
+                        <div class="formulario__grupo-input">
+                            <input type="text" class="formulario__input"
+                                name="¿En qué roles de la gestión de equipos/eventos tienes experiencia y podrías desempeñar en el proyecto del equipo ?
+                        *Escribe al menos cinco acciones/roles que hayas realizado en los proyectos en los que has colaborado."
+                                id="nombre">
+                        </div>
+                    </div>
+                    <div class="formulario__grupo" id="grupo__nombre">
+                        <label for="checkbox" class="formulario__label">¿Cuál de estas áreas te interesan más?</label>
+                            <input type="checkbox"
+                                value="RRSS Gestión gráfica, creación y planeación de contenido para redes sociales.">RRSS Gestión gráfica,
+                            creación y planeación de contenido para redes sociales. <br>
+                            <input type="checkbox" value="PRENSA Creación de boletines de prensa.">PRENSA Creación de boletines de
+                            prensa.<br>
+                            <input type="checkbox" value="PRENSA Gestión de entrevistas.">PRENSA Gestión de entrevistas.<br>
+                            <input type="checkbox" value="Apoyo logístico en las conferencias de prensa de difusión del FMJ">Apoyo logístico
+                            en las conferencias de prensa de difusión del FMJ<br>
+                            <input type="checkbox"
+                                value="PRENSA Creación de Press Kit notas de prensa, entrevistas y menciones del festival en medios impresos y digitales.">PRENSA
+                            Creación de Press Kit notas de prensa, entrevistas y menciones del festival en medios impresos y digitales.<br>
+                            <input type="checkbox" value="Gestión de conferencias, coloquios etc. que permitan la difusión.">Gestión de
+                            conferencias, coloquios etc. que permitan la difusión.<br>
+                            <input type="checkbox" value="Preparación de infografías">Preparación de infografías<br>
+                            <input type="checkbox" value="ADMON. Manejo de bases de datos">ADMON. Manejo de bases de datos<br>
+                            <input type="checkbox"
+                                value="Desarrollo de páginas web(HTML, CSS, Javascript, React, MySQL, WordPress)">Desarrollo de páginas
+                            web(HTML, CSS, Javascript, React, MySQL, WordPress)<br>
+                            <input type="checkbox" value="Edición de videos">Edición de videos<br>
+                            <input type="checkbox" value="Creación de podcast">Creación de podcast<br>
+                            <input type="checkbox" value="Gestionar sesiones informativas en streaming">Gestionar sesiones informativas en
+                            streaming <br>
+                            <input type="checkbox" value="Selección de proyectos relevantes">Selección de proyectos relevantes <br>
+                            <input type="checkbox" value="Creación de convocatorias">Creación de convocatorias<br>
+                            <input type="checkbox" value="Asesoria legal">Asesoria legal<br>
+                    </div>
+                    <div class="formulario__grupo" id="grupo__nombre">
+                        <label for="select" class="formulario__label">¿Qué responsabilidad te gustaria tomar?
+                        </label>
+                        <select class="formulario__input" name="¿Qué responsabilidad te gustaria tomar?" id="nombre" required>
+                            <option value="Escribir minutas y  gestion pendientes">Escribir minutas y gestion pendientes</option>
+                            <option value="Programar publicación del contenido">Programar publicación del contenido</option>
+                            <option value="Capturar y producir contenido visual atractivo">Capturar y producir contenido visual atractivo
+                            </option>
+                            <option value="Organizar y mantener una biblioteca de activos multimedia.">Organizar y mantener una biblioteca
+                                de activos multimedia.</option>
+                            <option value="Diseñar contenido que sea versátil para las diferentes plataformas">Diseñar contenido que sea
+                                versátil para las diferentes plataformas</option>
+                            <option value="Escribir guiones originales">Escribir guiones originales</option>
+                        </select>
+                    </div>
+                    <div class="formulario__grupo" id="grupo__nombre">
+                        <label for="nombre" class="formulario__label">Escribe brevemente alguna experiencia que tengas con la actividad que
+                            escogiste:</label>
+                        <div class="formulario__grupo-input">
+                            <input type="text" class="formulario__input"
+                                name="Escribe brevemente alguna experiencia que tengas con la actividad que
+                            escogiste:" id="nombre"
+                                required>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="formulario__grupo" id="grupo__nombre">
+                        <label for="nombre" class="formulario__label">Escribe los nombres de correos/contactos de comunicación que planeas
+                            contactar</label>
+                        <div class="formulario__grupo-input">
+                            <input type="text" class="formulario__input"
+                                name="Escribe los nombres de correos/contactos de comunicación que planeas
+                            contactar">
+                        </div>
+                    </div>
+                    <div class="formulario__grupo" id="grupo__nombre">
+                        <label for="nombre" class="formulario__label">¿Cuáles y qué tipo de otros instrumentos o plataformas de difusión
+                            puedes proporcionar al equipo de trabajo?</label>
+                        <div class="formulario__grupo-input">
+                            <input type="text" class="formulario__input"
+                                name="¿Cuáles y qué tipo de otros instrumentos o plataformas de difusión
+                            puedes proporcionar al equipo de trabajo?"
+                                id="nombre">
+                        </div>
+                    </div>
+                    <div class="formulario__grupo" id="grupo__nombre">
+                        <label for="nombre" class="formulario__label">Escribe los nombres de las instituciones , universidades, figuras
+                            públicas (Aliados, patrocinadores, otros) con los que planeas contactar o tienes acercamiento para invitarlos a
+                            colaborar con el proyecto?</label>
+                        <div class="formulario__grupo-input">
+                            <input type="text" class="formulario__input"
+                                name="Escribe los nombres de las instituciones , universidades, figuras públicas (Aliados, patrocinadores, otros) con los que planeas contactar o tienes acercamiento para invitarlos a colaborar con el proyecto?"
+                                id="nombre">
+                        </div>
+                    </div>
+                    <div class="formulario__grupo" id="grupo__nombre">
+                        <label for="select" class="formulario__label">Marca las plataformas y programas que manejas para el desempeño de
+                            tus actividades.</label>
+                        <p>
+                            <input type="checkbox" value="Paquetería Office (Outlook, Word, Excel, PowerPoint).">Paquetería Office (Outlook,
+                            Word, Excel, PowerPoint). <br>
+                            <input type="checkbox"
+                                value="Servicios de alojamiento y sincronización de archivos en la Nube (Google Drive, One Drive, DropBox, o similares).">Servicios
+                            de alojamiento y sincronización de archivos en la Nube (Google Drive, One Drive, DropBox, o similares). <br>
+                            <input type="checkbox" value="Correo electrónico.">Correo electrónico. <br>
+                            <input type="checkbox" value="Servicios de videollamada (Zoom, Google Meet).">Servicios de videollamada (Zoom,
+                            Google Meet).<br>
+                            <input type="checkbox" value="Agendas o calendarios electrónicos (Google, Outlook o Apple Calendar).">Agendas o
+                            calendarios electrónicos (Google, Outlook o Apple Calendar). <br>
+                            <input type="checkbox"
+                                value="Plataformas de gestión de proyectos (Basecamp, Asana, Trello, Monday o similares).">Plataformas de
+                            gestión de proyectos (Basecamp, Asana, Trello, Monday o similares).<br>
+                            <input type="checkbox" value="Softwares de diseño gráfico (Photoshop, Illustrator, Gimp o similares).">Softwares
+                            de diseño gráfico (Photoshop, Illustrator, Gimp o similares). <br>
+                            <input type="checkbox" value="Redes sociales (Facebook, Instagram, Twitter o similares).">Redes sociales
+                            (Facebook, Instagram, Twitter o similares). <br>
+                            <input type="checkbox"
+                                value="Servicios de mensajería instantánea (Discord, WhatsApp, Telegram o similares).">Servicios de
+                            mensajería instantánea (Discord, WhatsApp, Telegram o similares). <br>
+                        </p>
+                    </div>
+            </fieldset>
             <div class="formulario__grupo" id="grupo__nombre">
-                <label for="nombre" class="formulario__label">Página o sitio web</label>
+                <label for="nombre" class="formulario__label">¿Por qué te gustaría formar parte de este
+                    proyecto?</label>
                 <div class="formulario__grupo-input">
-                    <input type="text" class="formulario__input"
-                        name="Página o sitio web" id="nombre">
+                    <input type="text" class="formulario__input" name="¿Por qué te gustaría formar parte de este proyecto?"
+                        id="nombre" required>
                 </div>
             </div>
-            <div class="formulario__grupo" id="grupo__nombre">
-                <label for="nombre" class="formulario__label">Facebook
-                </label>
-                <div class="formulario__grupo-input">
-                    <input type="text" class="formulario__input" name="Facebook
-*" id="nombre">
-                </div>
-            </div>
-            <div class="formulario__grupo" id="grupo__nombre">
-                <label for="nombre" class="formulario__label">Instagram</label>
-                <div class="formulario__grupo-input">
-                    <input type="text" class="formulario__input" name="Instagram" id="nombre">
-                </div>
-            </div>
-            <div class="formulario__grupo" id="grupo__nombre">
-                <label for="nombre" class="formulario__label">Twitter</label>
-                <div class="formulario__grupo-input">
-                    <input type="text" class="formulario__input" name="Twitter" id="nombre">
-                </div>
-            </div>
-            <div class="formulario__grupo" id="grupo__nombre">
-                <label for="nombre" class="formulario__label">Telegram</label>
-                <div class="formulario__grupo-input">
-                    <input type="text" class="formulario__input" name="Telegram" id="nombre">
-                </div>
-            </div>
-            <div class="formulario__grupo" id="grupo__nombre">
-                <label for="nombre" class="formulario__label">Youtube</label>
-                <div class="formulario__grupo-input">
-                    <input type="text" class="formulario__input" name="Youtube" id="nombre">
-                </div>
-            </div>
-            <div class="formulario__grupo" id="grupo__nombre">
-                <label for="nombre" class="formulario__label">Otras redes sociales</label>
-                <div class="formulario__grupo-input">
-                    <input type="text" class="formulario__input" name="Otra(especifique o agregue la leyenda no aplica)"
-                        id="nombre">
-                </div>
-            </div>
-            <div class="formulario__grupo" id="grupo__nombre">
-                <label for="select" class="formulario__label">¿En qué área te gustaría participar?
-                </label>
-                <select class="formulario__input" name="¿Qué responsabilidad te gustaria tomar?" id="nombre" required>
-                    <option value="FMJ 1y2_REDES SOCIALES, PÁGINA WEB, COMUNICACIÓN, IMAGEN, PRODUCCIÓN">FMJ 1y2_REDES SOCIALES,
-                        PÁGINA WEB, COMUNICACIÓN, IMAGEN, PRODUCCIÓN</option>
-                    <option value="FMJ 3_Búsqueda de alianzas y/o patrocinios">FMJ 3_Búsqueda de alianzas y/o patrocinios</option>
-                    <option value="FMJ 4y5_Gestión de voluntariado, Seguimiento, Administración, Información OFICIAL">FMJ
-                        4y5_Gestión de voluntariado, Seguimiento, Administración, Información OFICIAL"</option>
-                </select>
-            </div>
-            <div class="formulario__grupo" id="grupo__nombre">
-                <label for="nombre" class="formulario__label">¿En qué roles de la gestión de equipos/eventos tienes experiencia y podrías desempeñar en el proyecto del equipo de
-                México rumbo al FMJ2024? *Escribe al menos cinco acciones/roles que hayas realizado en los proyectos en los que has
-                colaborado.</label>
-                <div class="formulario__grupo-input">
-                    <input type="text" class="formulario__input" name="¿En qué roles de la gestión de equipos/eventos tienes experiencia y podrías desempeñar en el proyecto del equipo de México rumbo al FMJ2024? *Escribe al menos cinco acciones/roles que hayas realizado en los proyectos en los que has colaborado."
-                        id="nombre">
-                </div>
-            </div>
-            <div class="formulario__grupo" id="grupo__nombre">
-                <label for="checkbox" class="formulario__label">¿Cuál de estas áreas te interesan más?</label>
-                <p>
-                    <input type="checkbox" value="RRSS Gestión gráfica, creación y planeación de contenido para redes sociales.">RRSS Gestión gráfica, creación y planeación de contenido para redes sociales. <br>
-                    <input type="checkbox" value="PRENSA Creación de boletines de prensa.">PRENSA Creación de boletines de prensa.<br>
-                     <input type="checkbox" value="PRENSA Gestión de entrevistas.">PRENSA Gestión de entrevistas.<br>
-                     <input type="checkbox" value="Apoyo logístico en las conferencias de prensa de difusión del FMJ">Apoyo logístico en las conferencias de prensa de difusión del FMJ<br>
-                     <input type="checkbox" value="PRENSA Creación de Press Kit notas de prensa, entrevistas y menciones del festival en medios impresos y digitales.">PRENSA Creación de Press Kit notas de prensa, entrevistas y menciones del festival en medios impresos y digitales.<br>
-                     <input type="checkbox" value="Gestión de conferencias, coloquios etc. que permitan la difusión.">Gestión de conferencias, coloquios etc. que permitan la difusión.<br>
-                     <input type="checkbox" value="Preparación de infografías">Preparación de infografías<br>
-                     <input type="checkbox" value="ADMON. Manejo de bases de datos">ADMON. Manejo de bases de datos<br>
-                     <input type="checkbox" value="Desarrollo de páginas web(HTML, CSS, Javascript, React, MySQL, WordPress)">Desarrollo de páginas web(HTML, CSS, Javascript, React, MySQL, WordPress)<br>
-                    <input type="checkbox" value="Edición de videos">Edición de videos<br>
-                    <input type="checkbox" value="Creación de podcast">Creación de podcast<br>
-                    <input type="checkbox" value="Gestionar sesiones informativas en streaming">Gestionar sesiones informativas en streaming <br>
-                    <input type="checkbox" value="Selección de proyectos relevantes">Selección de proyectos relevantes <br>
-                    <input type="checkbox" value="Creación de convocatorias">Creación de convocatorias<br>
-                    <input type="checkbox" value="Asesoria legal">Asesoria legal<br>
-                </p>
-            </div>
-            <div class="formulario__grupo" id="grupo__nombre">
-                <label for="select" class="formulario__label">¿Qué responsabilidad te gustaria tomar?
-                </label>
-                <select class="formulario__input" name="¿Qué responsabilidad te gustaria tomar?" id="nombre" required>
-                    <option value="Escribir minutas y  gestion pendientes">Escribir minutas y gestion pendientes</option>
-                    <option value="Programar publicación del contenido">Programar publicación del contenido</option>
-                    <option value="Capturar y producir contenido visual atractivo">Capturar y producir contenido visual atractivo</option>
-                    <option value="Organizar y mantener una biblioteca de activos multimedia.">Organizar y mantener una biblioteca de activos multimedia.</option>
-                    <option value="Diseñar contenido que sea versátil para las diferentes plataformas">Diseñar contenido que sea versátil para las diferentes plataformas</option>
-                    <option value="Escribir guiones originales">Escribir guiones originales</option>
-                </select>
-            </div>
-            <div class="formulario__grupo" id="grupo__nombre">
-                <label for="select" class="formulario__label">¿En qué área te gustaría participar?
-                </label>
-                <select class="formulario__input" name="¿Qué responsabilidad te gustaria tomar?" id="nombre" required>
-                    <option value="FMJ 1y2_REDES SOCIALES, PÁGINA WEB, COMUNICACIÓN, IMAGEN, PRODUCCIÓN">FMJ 1y2_REDES SOCIALES, PÁGINA WEB, COMUNICACIÓN, IMAGEN, PRODUCCIÓN</option>
-                    <option value="FMJ 3_Búsqueda de alianzas y/o patrocinios">FMJ 3_Búsqueda de alianzas y/o patrocinios</option>
-                    <option value="FMJ 4y5_Gestión de voluntariado, Seguimiento, Administración, Información OFICIAL">FMJ 4y5_Gestión de voluntariado, Seguimiento, Administración, Información OFICIAL"</option>  
-                </select>
-            </div>
-        <div class="formulario__grupo" id="grupo__nombre">
-            <label for="nombre" class="formulario__label">Escribe brevemente alguna experiencia que tengas con la actividad que escogiste:</label>
-            <div class="formulario__grupo-input">
-                <input type="text" class="formulario__input" name="Escribe brevemente alguna experiencia que tengas con la actividad que escogiste:" id="nombre" required>
-            </div>
-        </div>
-        <div class="formulario__grupo" id="grupo__nombre">
-            <label for="nombre" class="formulario__label">Describe brevemente tus cualidades y habilidades más importantes:</label>
-            <div class="formulario__grupo-input">
-                <input type="text" class="formulario__input"
-                    name="Describe brevemente tus cualidades y habilidades más importantes:" id="nombre"
-                    required>
-            </div>
-        </div>
-        <div class="formulario__grupo" id="grupo__nombre">
-            <label for="nombre" class="formulario__label">Escribe los nombres de correos/contactos de comunicación que planeas contactar</label>
-            <div class="formulario__grupo-input">
-                <input type="text" class="formulario__input" name="Escribe los nombres de prensa/medios de comunicación que planeas contactar para cubrir las actividades preparatorias" id="nombre">
-            </div>
-        </div>
-        <div class="formulario__grupo" id="grupo__nombre">
-            <label for="nombre" class="formulario__label">¿Cuáles y qué tipo de otros instrumentos o plataformas de difusión puedes proporcionar al equipo de trabajo?</label>
-            <div class="formulario__grupo-input">
-                <input type="text" class="formulario__input" name="¿Cuáles y qué tipo de otros instrumentos o plataformas de difusión puedes proporcionar al equipo de trabajo?"id="nombre">
-            </div>
-        </div>
-        <div class="formulario__grupo" id="grupo__nombre">
-            <label for="nombre" class="formulario__label">Escribe los nombres de las instituciones , universidades, figuras públicas (Aliados, patrocinadores, otros) con los que planeas contactar o tienes acercamiento para invitarlos a colaborar con el proyecto?</label>
-            <div class="formulario__grupo-input">
-                <input type="text" class="formulario__input"
-                    name="Escribe los nombres de las instituciones , universidades, figuras públicas (Aliados, patrocinadores, otros) con los que planeas contactar o tienes acercamiento para invitarlos a colaborar con el proyecto?"
-                    id="nombre">
-            </div>
-        </div>
-        <div class="formulario__grupo" id="grupo__nombre">
-            <label for="checkbox" class="formulario__label">Marca las plataformas y programas que manejas para el desempeño de tus actividades.</label>
-            <p>
-                <input type="checkbox" value="Paquetería Office (Outlook, Word, Excel, PowerPoint).">Paquetería Office (Outlook, Word, Excel, PowerPoint). <br>
-                <input type="checkbox" value="Servicios de alojamiento y sincronización de archivos en la Nube (Google Drive, One Drive, DropBox, o similares).">Servicios de alojamiento y sincronización de archivos en la Nube (Google Drive, One Drive, DropBox, o similares). <br>
-                <input type="checkbox" value="Correo electrónico.">Correo electrónico. <br>
-                <input type="checkbox" value="Servicios de videollamada (Zoom, Google Meet).">Servicios de videollamada (Zoom, Google Meet).<br>
-                <input type="checkbox" value="Agendas o calendarios electrónicos (Google, Outlook o Apple Calendar).">Agendas o calendarios electrónicos (Google, Outlook o Apple Calendar). <br>
-                <input type="checkbox" value="Plataformas de gestión de proyectos (Basecamp, Asana, Trello, Monday o similares).">Plataformas de gestión de proyectos (Basecamp, Asana, Trello, Monday o similares).<br>
-                <input type="checkbox" value="Softwares de diseño gráfico (Photoshop, Illustrator, Gimp o similares).">Softwares de diseño gráfico (Photoshop, Illustrator, Gimp o similares). <br>
-                <input type="checkbox" value="Redes sociales (Facebook, Instagram, Twitter o similares).">Redes sociales (Facebook, Instagram, Twitter o similares). <br>
-                <input type="checkbox" value="Servicios de mensajería instantánea (Discord, WhatsApp, Telegram o similares).">Servicios de mensajería instantánea (Discord, WhatsApp, Telegram o similares). <br>
-            </p>
-        </div>
-        <div class="formulario__grupo" id="grupo__nombre">
-            <label for="nombre" class="formulario__label">¿Por qué te gustaría formar parte de este proyecto?</label>
-            <div class="formulario__grupo-input">
-                <input type="text" class="formulario__input"
-                    name="¿Por qué te gustaría formar parte de este proyecto?" id="nombre" required>
-            </div>
-        </div>
             <div class="formulario__grupo" id="grupo__nombre">
                 <label for="select" class="formulario__label">¿Como visualizas tu participación dentro de este proyecto?
                 </label>
-                <select class="formulario__input" name="¿Como visualizas tu participación dentro de este proyecto?" id="nombre" required>
+                <select class="formulario__input" name="¿Como visualizas tu participación dentro de este proyecto?" id="nombre"
+                    required>
                     <option value="A corto plazo">A corto plazo</option>
                     <option value="A mediano plazo">A mediano plazo</option>
                     <option value="A largo plazo">A largo plazo</option>
@@ -271,7 +302,8 @@
             <div class="formulario__grupo" id="grupo__nombre">
                 <label for="select" class="formulario__label">¿Cuántas horas a la semana tienes disponibilidad para la gestión de este proyecto?
                 </label>
-                <select class="formulario__input" name="¿Cuántas horas a la semana tienes disponibilidad para la gestión de este proyecto?" id="nombre" required>
+                <select class="formulario__input"
+                    name="¿Cuántas horas a la semana tienes disponibilidad para la gestión de este proyecto?" id="nombre" required>
                     <option value="2 a 3 hrs">2 a 3 hrs</option>
                     <option value="3 a 6 hrs">3 a 6 hrs</option>
                     <option value="6 a 8 hrs">6 a 8 hrs</option>
@@ -280,15 +312,18 @@
             </div>
             <div class="formulario__grupo" id="grupo__nombre">
                 <label for="nombre" class="formulario__label">¿Cuáles días de la semana tienes mayor disponibilidad?
-</label>
+                </label>
                 <div class="formulario__grupo-input">
-                    <input type="text" class="formulario__input" name="¿Cuáles días de la semana tienes mayor disponibilidad?" id="nombre">
+                    <input type="text" class="formulario__input" name="¿Cuáles días de la semana tienes mayor disponibilidad?"
+                        id="nombre">
                 </div>
             </div>
             <div class="formulario__grupo" id="grupo__nombre">
-                <label for="select" class="formulario__label">¿Cuáles son los horarios que tienes mayor disponibilidad para unirte a reuniones de retroalimentación en equipos?
+                <label for="select" class="formulario__label">¿Cuáles son los horarios que tienes mas disponibilidad para unirte a reuniones de retroalimentación en equipos?
                 </label>
-                <select class="formulario__input" name="¿Cuáles son los horarios que tienes mas disponibilidad para unirte a reuniones de retroalimentación en equipos?" id="nombre" required>
+                <select class="formulario__input"
+                    name="¿Cuáles son los horarios que tienes mas disponibilidad para unirte a reuniones de retroalimentación en equipos?"
+                    id="nombre" required>
                     <option value="9:00 a.m. a 11:00 a.m.">9:00 a.m. a 11:00 a.m.</option>
                     <option value="12:00 p.m. a 2:00 p.m.">12:00 p.m. a 2:00 p.m.</option>
                     <option value="3:00 p.m. a 5:00 p.m.">3:00 p.m. a 5:00 p.m.</option>
@@ -300,22 +335,26 @@
             <div class="formulario__grupo" id="grupo__terminos">
                 <label class="formulario__label">
                     <p style="text-align: justify;">
-                        <input class="formulario__checkbox" type="checkbox" name="terminos" id="terminos" required>
-                        Entiendo que la finalidad de este formulario es obtener información estadística sobre los perfiles profesionales de
-                        individuos, así como de las iniciativas interesadas en sumar y formar parte del proyecto de México rumbo al FMJ 2024.
-                        
-                        Entiendo que mi colaboración es voluntaria y no remunerada. Expreso y otorgo el consentimiento para el uso de los datos
+                        <input class="checkbox" type="checkbox" name="terminos" id="terminos" required>
+                        Entiendo que la finalidad de este formulario es obtener información estadística sobre los perfiles
+                        profesionales de
+                        individuos, así como de las iniciativas interesadas en sumar y formar parte del proyecto de México rumbo al
+                        FMJ 2024.
+            
+                        Entiendo que mi colaboración es voluntaria y no remunerada. Expreso y otorgo el consentimiento para el uso
+                        de los datos
                         compartidos en este formulario.
                     </p>
                 </label>
-            </div>   
+            </div>
             <div class="formulario__grupo " style="margin-top: 40px;">
                 <p class="formulario__grupo-btn-enviar">
-                  <input type="submit" class="formulario__btn" name="Upload" value="Enviar" />
+                    <input type="submit" class="formulario__btn" name="Upload" value="Enviar" />
                 </p>
             </div>
         </form>
     </div>
+    <p style="width:200px; height: 200px;"></p>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
         integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
         crossorigin="anonymous"></script>
